@@ -161,7 +161,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.4s ease-in-out;
-  filter: grayscale(15%) brightness(90%);
+  filter: grayscale(25%) brightness(85%);
   transition: 0.1s;
 }
 .home-content .left-side {
