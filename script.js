@@ -22,12 +22,12 @@ for(let i=0;i<controlbtn.length;i++)
 
 controlbtn.forEach(btn =>{
     btn.addEventListener('click',(e)=>{
-        console.log(e.target)
+        // console.log(e.target)
         document.querySelectorAll('.active').forEach(activememb =>{
             activememb.classList.remove('active')
         })  
         btn.classList.add('active');
-        console.log(btn.dataset.id)
+        // console.log(btn.dataset.id)
         document.getElementById(btn.dataset.id).classList.add("active");
     })
 })
